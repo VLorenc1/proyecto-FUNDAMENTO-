@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Fundamento</title>
+        <script src="https://kit.fontawesome.com/046350e8b4.js" crossorigin="anonymous"></script>
+        <link id="favicon" rel="shortcut icon" href="https://habitue-img.s3.sa-east-1.amazonaws.com/imagenes/1645726372.apple-touch-icon.png">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body class="cuerpo"> 
+        <header class="header">
+            <div class="row justify-content-center logo">
+                <div class="col-3">
+                    <img class="logo1" src="./IMAGENES/logoHeader.jpeg" alt="logo">
+                </div>
+            </div>
+        </header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Inicio</a>
+            <a href="interno1.html">Cuenta</a>
+            <a href="interno3.html">Reservas</a>
+            <a href="interno4.html">Contacto</a>
+            <a href="interno2.html">Sucursales</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <span>
+                <a href="carrito.html"><i id="carrito" class="fa-solid fa-cart-shopping"></i></a>     
+            </span>
+        </div>
+            
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script> 
+
+        <div class="menu">
+            <h2>RESERVAS</h2>
+        </div>
+        <div class="recuadro">
+            <table>
+                <tbody>
+                    <p class="p1">Cantidad de personas </p>
+                </tbody>
+                <div>
+                    <input type="text">
+                </div>
+                <tbody>
+                    <p class="p1">Fecha</p>
+                </tbody>
+                <div>
+                    <input type="text">
+                </div>
+                <tbody>
+                    <p class="p1">Horario de preferencia </p>
+                </tbody>
+                <div>
+                    <input type="text">
+                </div>
+                <tbody>
+                    <p class="p1">Notas </p>
+                </tbody>
+                <div>
+                    <input type="text">
+                </div>
+                <button class="boton">
+                    Reservar
+                </button>
+            </table>
+        </div>
+        <div class="aclaracion">
+            <p>La reserva tiene tolerancia sólo de 15 minutos luego del tiempo acordado.</p>
+            <p>Agradecemos que estén a tiempo.</p>
+        </div>
+
+    <!--SCRIPTS-->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    </body>
+</html>
